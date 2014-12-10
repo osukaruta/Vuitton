@@ -1,0 +1,194 @@
+body{
+font-family:Calibri;
+/* background:url("img/clean1.jpg")no-repeat; */
+background:#524f4f;
+background-attachment:fixed;
+}
+
+#bungkus{
+width:900px;
+margin: 0 auto;
+}
+
+#atas{
+margin-top:10px ;
+margin-bottom:10px ;
+}
+
+#banner{
+margin-top:10px;
+width:900px;
+height:200px;
+background-color:purple;
+background:url(img/header1.jpg);
+border-radius:5px;
+}
+
+#menu{
+margin-top:20px ;
+margin-bottom:20px ;
+}
+
+#menu ul{
+padding:0;
+margin:0;
+}
+
+#menu ul li{
+list-style:none;
+display:inline-block;
+}
+
+#menu ul li a{
+margin-right:10px;
+text-decoration:none;
+color: #333333;
+padding: 3px 8px;
+background-color: #CCCCCC;
+border-radius:5px;
+}
+
+#menu ul li a:hover{
+color:blue;
+border:2px solid;
+font-style:oblique;
+}
+
+#tengah{
+width:900px;
+}
+
+#about{
+width:900px;
+}
+
+#program{
+width:900px;
+}
+
+#daftar{
+width:900px;
+}
+
+.tombol{
+padding: 3px 8px;
+background-color: #CCCCCC;
+border:1px solid;
+border-radius:5px;
+}
+
+.kotak{
+padding: 3px 8px;	
+border:1px solid #CCCCCC;
+border-radius:5px;
+}
+
+input:focus { 
+    background-color: #CCCCCC;
+}
+
+textarea:focus { 
+    background-color: #CCCCCC;
+}
+
+#berita{
+width:600px;
+float:right;
+border-radius:5px;
+}
+
+#program{
+width:600px;
+}
+
+#model{
+width:250px;
+margin-bottom:5px;
+}
+
+.login{
+width:250px;
+margin-bottom:5px;
+border-radius:5px;
+color:white;
+}
+
+.masuk{
+width:300px;
+margin:0 auto;
+}
+
+#menuprogram{
+float:left;
+}
+
+#menuprogram ul{
+float:left;
+padding:0;
+margin:0;
+}
+
+#menuprogram ul li{
+display:inline-block;
+list-style:none;
+margin-bottom:20px;
+}
+
+#menuprogram ul li a{
+margin-right:10px;
+text-decoration:none;
+color: #333333;
+padding: 3px 8px;
+background-color: #CCCCCC;
+border-radius:5px;
+}
+
+#menuprogram ul li a:hover{
+color:blue;
+border:2px solid;
+font-style:oblique;
+}
+
+#menubawah{
+margin-top:10px ;
+margin-bottom:20px ;
+}
+
+#menubawah ul{
+padding:0;
+margin:0;
+}
+
+#menubawah ul li{
+list-style:none;
+display:inline-block;
+}
+
+#menubawah ul li a{
+margin-right:10px;
+text-decoration:none;
+color: #333333;
+padding: 3px 8px;
+background-color: #CCCCCC;	
+border:1px solid;
+border-radius:5px;
+}
+
+#menubawah ul li a:hover{
+color:blue;
+border:2px solid;
+font-style:oblique;
+}
+
+.white{
+color:white;
+}
+
+h2 a{
+color:cyan;
+text-decoration:none;
+}
+
+h2 a:hover{
+color:#333333;
+}
