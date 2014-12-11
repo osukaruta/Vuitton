@@ -1,3 +1,12 @@
+<head>
+	<link href="img/lv.ico" rel="shortcut icon" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<div class="white">
+<center>
+<img src="img/sent.png" width="300px"/><br>
+
 <?php
     //alamat email tujuan bisa anda sesuaikan dengan email anda
     $tujuan = "oscar.adriyanto@gmail.com";
@@ -9,12 +18,14 @@
     $kirim = mail($tujuan,$judul,$pesan,$header);
     if( $kirim == true ) 
     {
-        echo "Pesan berhasil terkirim<br>";
-		echo "<a href='contact.html'>Kembali Ke Kontak</a>";
+        echo "<h2>Pesan berhasil terkirim<br></h2>";
+		echo "<h2><a href='contact.html' style='color:cyan;'>Kembali Ke Kontak</a></h2>";
     }
     else
     {
-        echo "Pesan gagal terkirim<br>";
-		echo "<a href='contact.html'>Kembali Ke Kontak</a>";
+        echo "<h2>Pesan gagal terkirim<br></h2>";
+		echo "<h2><a href='contact.html' style='color:cyan;'>Kembali Ke Kontak</a></h2>";
     }
 ?>
+</center>
+</div>
