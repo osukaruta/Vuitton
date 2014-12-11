@@ -16,6 +16,7 @@ $hasil = mysqli_query($koneksi, $sql);
 <!DOCTYPE HTML>
 <html>
 <head>
+	<title>Member</title>
 	<link href="img/favicon.ico" rel="shortcut icon" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>

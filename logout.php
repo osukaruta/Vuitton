@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<title>Logout</title>
 		<link href="img/lv.ico" rel="shortcut icon" />
 		<link href="style.css" rel="stylesheet" type="text/css" />
 	</head>

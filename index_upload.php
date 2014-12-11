@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<title>Upload</title>
 	<link href="img/lv.ico" rel="shortcut icon" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -56,7 +57,7 @@ while( $baris = mysqli_fetch_assoc($hasil)){//open while
 }//tutup while
 ?>			<br/>
 			<a href="member.php">View Databaes</a><br/>
-			<a href="admin_upload.php">upload Item</a></br>
+			<a href="admin_upload.php">Upload Item</a></br>
 			<a href="logout.php">Logout</a>
 </body>
 </html>
