@@ -24,9 +24,11 @@ include "koneksi.php";
 }else{
 ?>
 <center>
-<img src="img/stop.png" width="300px"/>
-Anda tidak dapat mengakses halaman ini. Silahkan<a href="masuk.php">Login
-dahulu</a>
+<img src="img/stop.png" width="300px"/><br>
+<h2><font color="white">Anda tidak dapat mengakses halaman ini.
+Silahkan <a href="masuk.php">Login
+dahulu</font></a>
+</h2>
 </center>
 </div>
 <?php
